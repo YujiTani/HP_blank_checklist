@@ -148,9 +148,9 @@ function validPatientNameDup($patientName , $key){
 //---------------------
 function dbConnect() {
     //DB接続準備
-    $dbn      = 'mysql:dbname=yuzunosk2998_fastdb;host=mysql7072.xserver.jp;charset=utf8';
-    $user     = 'yuzunosk2998_1st';
-    $password = 'awwt2998';
+    $dbn      = 'mysql:dbname=LAA1222390-hpblank01;host=mysql147.phy.lolipop.lan;charset=utf8';
+    $user     = 'LAA1222390';
+    $password = 'MqbiGm3YQAqzZVMM';
     $options   = array(
                         PDO::ATTR_ERRMODE =>PDO::ERRMODE_SILENT,
                         PDO::ATTR_DEFAULT_FETCH_MODE =>PDO::FETCH_ASSOC,
